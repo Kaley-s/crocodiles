@@ -6,7 +6,8 @@ font-family: 'Bentham', serif;}
 article, header {
     width: 80%;
     max-width: 800px;
-    margin: auto;}
+    margin: auto;
+}
     
 
 img {display:block;
@@ -15,10 +16,10 @@ max-width: 100%;}
 
 /*---- styling typography----*/
 
-h1, h2 {color: #D99121;
+h1, h2, h3 {color: #D99121;
     font family: 'Bentham', serif;}
     
-    p, blockquote {line-height: 1.5;}
+    p, blockquote {line-height: 1.2;}
     
     h1{
         font-size: 3.247rem;
@@ -33,9 +34,10 @@ h1, h2 {color: #D99121;
     blockquote{
         font-size: 1.602rem;
         font-style: italic;
-        background-color: #D99121;
+        line-height: 1rem;
+        background-color: #1A1B1D;
         color: rgb(255, 255, 255);
-        margin: 0;
+        margin: 3rem 0;
     }
     cite{
         font-size: 1.266rem;
@@ -51,7 +53,9 @@ h1, h2 {color: #D99121;
     
     header p{
         font-size: 1.4rem;
-        margin-bottom: 8rem;
+        margin-bottom: 5rem;
+        color: #f7f7f7;
+        background-color: #D99121;
     }
 
 /*----styling links----*/
