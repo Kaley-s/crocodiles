@@ -10,27 +10,40 @@ article, header {
 }
     
 
-img {display:block;
-padding: 0;
-max-width: 100%;}
+img {
+    display:block;
+    padding: 0;
+    margin: 0 0 0 0;
+    border: 0;
+    max-width: 100%;}
 
 /*---- styling typography----*/
 
-h1, h2, h3 {color: #D99121;
+h1, h2, h3 {
+    color: #D99121;
     font family: 'Bentham', serif;}
     
-    p, blockquote {line-height: 1.2;}
+    blockquote p {
+        line-height: normal;
+        padding: 1rem 1rem 1rem 1rem;
+
+    }
     
     h1{
-        font-size: 3.247rem;
+        font-size: 4rem;
         color:#D99121;
         font-weight: normal;
         margin: 2rem 0 1rem 0;
     }
     h2{ 
-        font-size: 1.802rem;
-        margin: 3rem 0 1rem 0;
+        font-size: 3rem;
+        margin: 2rem 0 1rem 0;
     }
+
+    h3 {
+        font-size: 2rem;
+    }
+
     blockquote{
         font-size: 1.602rem;
         font-style: italic;
@@ -38,6 +51,8 @@ h1, h2, h3 {color: #D99121;
         background-color: #1A1B1D;
         color: rgb(255, 255, 255);
         margin: 3rem 0;
+        margin-bottom: 0;
+        border-bottom: 0;
     }
     cite{
         font-size: 1.266rem;
@@ -53,7 +68,9 @@ h1, h2, h3 {color: #D99121;
     
     header p{
         font-size: 1.4rem;
-        margin-bottom: 4rem;
+        letter-spacing: 0px;
+        margin-bottom: 3rem;
+        padding: 1rem 1rem 1rem 1rem;
         color: #f7f7f7;
         background-color: #D99121;
     }
@@ -61,7 +78,7 @@ h1, h2, h3 {color: #D99121;
 /*----styling links----*/
 
 a {
-    color: #633e04;
+    color: #ffffff;
 
 }
 
@@ -104,7 +121,7 @@ nav a:link {
 
 nav a:hover{
     border-bottom: none;
-    color: #333;
+    color: #a06609;
     transition: all 0.3s ease-in-out;
 }
 
