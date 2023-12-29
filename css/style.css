@@ -1,7 +1,9 @@
 body{
     background: #f7f7f7;
 color: #333;
-font-family: 'Bentham', serif;}
+font-family: 'Bentham', serif;
+font-size: 18pt;
+}
 
 article, header {
     width: 80%;
@@ -30,18 +32,19 @@ h1, h2, h3 {
     }
     
     h1{
-        font-size: 4rem;
+        font-size: 4.5rem;
         color:#D99121;
         font-weight: normal;
-        margin: 2rem 0 1rem 0;
+        margin: 2rem 0 0.5rem 0;
     }
+
     h2{ 
         font-size: 3rem;
         margin: 2rem 0 1rem 0;
     }
 
     h3 {
-        font-size: 2rem;
+        font-size: 2.3rem;
     }
 
     blockquote{
