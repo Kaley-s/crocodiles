@@ -1,2 +1,2 @@
 # The Street of Crocodiles
--[version1](file:///C:/Users/turla/Documents/GitHub/crocodiles/index-1.html)
+-[version1](https://kaley-s.github.io/crocodiles/index-1.html)
